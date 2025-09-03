@@ -118,111 +118,9 @@ const Contact = () => {
             ))}
           </div>
 
-          {/* Contact Form */}
-          <div className="grid lg:grid-cols-2 gap-12">
-            {/* <Card className="shadow-warm">
-              <CardHeader>
-                <CardTitle className="font-serif text-2xl text-primary">
-                  Send us a Message
-                </CardTitle>
-                <p className="text-muted-foreground">
-                  Fill out the form below and we'll get back to you as soon as possible.
-                </p>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-primary mb-2">
-                        Full Name *
-                      </label>
-                      <Input
-                        id="name"
-                        name="name"
-                        type="text"
-                        required
-                        value={formData.name}
-                        onChange={handleChange}
-                        placeholder="Your full name"
-                        className="border-border focus:ring-primary"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-primary mb-2">
-                        Phone Number
-                      </label>
-                      <Input
-                        id="phone"
-                        name="phone"
-                        type="tel"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        placeholder="Your phone number"
-                        className="border-border focus:ring-primary"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-primary mb-2">
-                      Email Address *
-                    </label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      required
-                      value={formData.email}
-                      onChange={handleChange}
-                      placeholder="your.email@example.com"
-                      className="border-border focus:ring-primary"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-primary mb-2">
-                      Subject *
-                    </label>
-                    <Input
-                      id="subject"
-                      name="subject"
-                      type="text"
-                      required
-                      value={formData.subject}
-                      onChange={handleChange}
-                      placeholder="What is this regarding?"
-                      className="border-border focus:ring-primary"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-primary mb-2">
-                      Message *
-                    </label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      required
-                      rows={6}
-                      value={formData.message}
-                      onChange={handleChange}
-                      placeholder="Tell us how we can help you..."
-                      className="border-border focus:ring-primary"
-                    />
-                  </div>
-
-                  <Button 
-                    type="submit" 
-                    className="w-full bg-gradient-warm hover:opacity-90 text-white font-semibold py-3"
-                  >
-                    <Send className="mr-2 h-4 w-4" />
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card> */}
-              <Card className="shadow-warm">
-                <CardHeader>
+       
+            <div className="space-y-8 overflow-x-auto w-full max-w-full">
+            <Card className="shadow-warm w-full max-w-full">                             <CardHeader>
                   <CardTitle className="font-serif text-2xl text-primary">
                     Follow Us
                   </CardTitle>
@@ -231,50 +129,27 @@ const Contact = () => {
                   </p>
                 </CardHeader>
                 <CardContent>
-                  <div className="flex space-x-4">
-                    {socialLinks.map((social, index) => (
-                      <Button
-                        key={index}
-                        variant="outline"
-                        size="lg"
-                        className={`transition-colors ${social.color}`}
-                        asChild
-                      >
-                        <a href={social.url} target="_blank" rel="noopener noreferrer">
-                          {social.icon}
-                          <span className="ml-2">{social.name}</span>
-                        </a>
-                      </Button>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+  <div className="flex flex-col space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4">
+    {socialLinks.map((social, index) => (
+      <Button
+        key={index}
+        variant="outline"
+        size="lg"
+        className={`transition-colors ${social.color} flex-1`}
+        asChild
+      >
+        <a href={social.url} target="_blank" rel="noopener noreferrer">
+          {social.icon}
+          <span className="ml-2">{social.name}</span>
+        </a>
+      </Button>
+    ))}
+  </div>
+</CardContent>
 
-            {/* Additional Information */}
-            <div className="space-y-8">
-              {/* <Card className="shadow-warm">
-                <CardHeader>
-                  <CardTitle className="font-serif text-2xl text-primary">
-                    Business Hours
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-3">
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Monday - Friday</span>
-                      <span className="font-medium">9:00 AM - 6:00 PM</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Saturday</span>
-                      <span className="font-medium">9:00 AM - 4:00 PM</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Sunday</span>
-                      <span className="font-medium">Closed</span>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card> */}
+              </Card>
+          
+          
 
             
 
@@ -296,7 +171,6 @@ const Contact = () => {
 
                 </CardContent>
               </Card>
-            </div>
           </div>
         </div>
       </section>

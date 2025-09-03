@@ -13,8 +13,8 @@ const Footer = () => {
   ];
 
   const products = [
-    "Saoji Gravy Masala",
-    "Pahadi Gravy Masala", 
+    "Saoji Gravy",
+    "Pahadi Gravy", 
     "Jawas Chutney",
     "Shengdana Chutney"
   ];
