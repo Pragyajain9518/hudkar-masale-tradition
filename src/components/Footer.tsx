@@ -92,18 +92,18 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
                 <div className="text-primary-foreground/80 text-sm">
-                  <p>123 Spice Street</p>
-                  <p>Nagpur, Maharashtra 440001</p>
+                  <p>42FM+2RF, Ambazari - Hingna Rd, Rajendra Nagar, Yahodha Nagar,</p>
+                  <p>Nagpur, Maharashtra 440036</p>
                   <p>India</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80 text-sm">+91 98765 43210</span>
+                <span className="text-primary-foreground/80 text-sm">+91 9673333866</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80 text-sm">info@hudakarmasale.com</span>
+                <span className="text-primary-foreground/80 text-sm">Umredkarmasale@gmail.com</span>
               </div>
             </div>
           </div>

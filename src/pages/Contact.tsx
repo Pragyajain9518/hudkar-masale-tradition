@@ -64,15 +64,16 @@ const Contact = () => {
     {
       icon: <Instagram className="h-5 w-5" />,
       name: "Instagram", 
-      url: "#",
+      url: "https://www.instagram.com/umredkar_saoji?igsh=cDN5cmdkeTY4and1",
       color: "hover:text-pink-600"
     },
     {
       icon: <MessageCircle className="h-5 w-5" />,
       name: "WhatsApp",
-      url: "#",
+      url: "https://wa.me/919673333866",
       color: "hover:text-green-600"
     }
+    
   ];
 
   return (
@@ -286,10 +287,13 @@ const Contact = () => {
                     Interested in bulk orders for your restaurant or store? 
                     Contact us for special wholesale pricing.
                   </p>
-                  <Button variant="outline" className="border-white/30 text-primary hover:bg-white/10">
-                    <Mail className="mr-2 h-4 w-4" />
-                    Get Wholesale Info
-                  </Button>
+                  <a href="mailto:Umredkarmasale@gmail.com" target="_blank" rel="noopener noreferrer">
+  <Button variant="outline" className="border-white/30 text-primary hover:bg-white/10">
+    <Mail className="mr-2 h-4 w-4" />
+    Get Wholesale Info
+  </Button>
+</a>
+
                 </CardContent>
               </Card>
             </div>

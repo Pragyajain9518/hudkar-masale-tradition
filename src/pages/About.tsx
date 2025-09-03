@@ -6,22 +6,22 @@ const About = () => {
     {
       icon: <Leaf className="h-8 w-8 text-accent" />,
       title: "Natural & Pure",
-      description: "We use only the purest spices without any artificial additives or preservatives"
+      description: "We use only the purest spices, made from real natural ingredients and free from chemicals or preservatives."
     },
     {
       icon: <Heart className="h-8 w-8 text-secondary" />,
       title: "Made with Love",
-      description: "Every product is crafted with care, following traditional family recipes"
+      description: "Every product is crafted with care, inspired by Asha Umredkar's home-cooked flavors and perfected over generations."
     },
     {
       icon: <Award className="h-8 w-8 text-primary-glow" />,
       title: "Quality Assured",
-      description: "Rigorous quality checks ensure every batch meets our high standards"
+      description: "Rigorous checks ensure each batch meets the highest standards. Trusted by over 50 lakh+ homes by 2026."
     },
     {
       icon: <Users className="h-8 w-8 text-primary" />,
       title: "Family Legacy",
-      description: "Three generations of spice expertise passed down through our family"
+      description: "Started by Prashant Umredkar with the support of his mother and friends, continuing the Umredkar family tradition."
     }
   ];
 
@@ -44,22 +44,46 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              <strong className="text-primary font-serif text-xl">Umredakar Masale</strong> was born from a passion for preserving the authentic flavors that have been cherished in Indian kitchens for centuries. Our journey began three generations ago when our great-grandmother started blending spices in her small kitchen, creating magical flavors that brought families together around the dining table.
+              <strong className="text-primary font-serif text-xl">Umredkar Masale</strong> began from the
+              passion, tradition, and perseverance of Smt. <strong>Asha Umredkar</strong>, who lovingly prepared snacks
+              and chips at home, inspiring <strong>Mr. Prashant Umredkar</strong>'s deep love for food. In 1996, Prashant started a
+              small mess service with his mother as chef, aiming to serve tastes just like home. With loyal support from friends
+              like <strong>Mr. Indranil Naik</strong> and the drive to expand into catering, hotels, and finally spices,
+              the business grew, keeping authenticity and family at its core.
             </p>
 
             <div className="bg-gradient-warm p-8 rounded-lg text-white mb-12 shadow-warm">
               <h2 className="font-serif text-3xl font-bold mb-4">Our Mission</h2>
-              <p className="text-lg leading-relaxed opacity-90">
-                To bring the authentic taste of traditional Indian spices to every home, preserving age-old recipes while maintaining the highest quality standards. We believe that great food starts with great spices, and great spices come from the heart.
+              <ul className="list-disc ml-8 opacity-90 text-lg leading-relaxed">
+                <li>
+                  Deliver <strong>100% natural</strong> masalas and gravies with no chemicals or preservatives.
+                </li>
+                <li>
+                  Make cooking effortless – just add our masala, water, and favorite ingredients for a flavorful meal.
+                </li>
+                <li>
+                  Carry forward the <strong className="text-primary">rich flavors of Nagpur and Maharashtra</strong> to households nationwide.
+                </li>
+                <li>
+                  Reach <span className="font-bold">50 lakh+ homes by 2026</span>, sharing health, purity, and taste with trust.
+                </li>
+              </ul>
+              <p className="mt-4">
+                Our mission is to share emotions, traditions, and memories—served with every spoonful.
               </p>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              What started as a family tradition has now grown into <strong className="text-primary">Umredakar Masale</strong> - a brand trusted by thousands of families across India. We source our spices directly from farmers who share our commitment to quality, ensuring that every grain of spice that goes into our blends is of the finest quality.
+              From mess → catering → canteen → hotel → spices, Umredkar Masale kept evolving.
+              During the pandemic, with the support of <strong>Mrs. Sonali Umredkar</strong> and encouragement from
+              <strong>Mr. Narendra Deshmukh</strong>, innovative preservative-free gravies and masalas were crafted, using only pure, natural
+              ingredients and traditional methods.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              Our specialties include the famous <strong className="text-secondary">Saoji Gravy Masala</strong> from Nagpur's culinary heritage, the aromatic <strong className="text-accent">Pahadi Gravy Masala</strong> from the hills, and our signature chutneys - <strong className="text-primary-glow">Jawas Chutney</strong> and <strong className="text-secondary">Shengdana Chutney</strong> - that add the perfect finishing touch to any meal.
+              Now, with renowned products like <strong >Saoji Masala</strong>, <strong className="text-accent">Pahadi Gravy</strong>,
+              <strong>Kala Masala</strong>, <strong>Turmeric</strong>, and specialty chutneys, Umredkar Masale promises convenience,
+              authenticity, and care in every home-cooked dish.
             </p>
           </div>
         </div>
@@ -76,7 +100,6 @@ const About = () => {
               The principles that guide us in everything we do
             </p>
           </div>
-
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <Card key={index} className="text-center shadow-warm hover:shadow-spice transition-all duration-300 hover:scale-105">
@@ -103,15 +126,17 @@ const About = () => {
           <h2 className="font-serif text-4xl font-bold text-primary mb-6">
             Our Commitment to You
           </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              Every product that carries the Umredakar Masale name is a promise - a promise of authenticity, quality, and the genuine taste that has been perfected over generations. When you choose our spices, you're not just buying ingredients; you're bringing home a piece of our family's legacy.
-            </p>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-12">
+            Every product that carries the Umredkar Masale name is a promise—of authenticity,
+            quality, and the genuine taste that has been perfected over generations. When you choose our spices,
+            you're bringing home a piece of our family's legacy and the comfort of home-cooked flavor.
+          </p>
           <div className="bg-card p-8 rounded-lg shadow-warm border border-border">
             <p className="font-serif text-xl text-primary italic">
               "Taste the tradition, feel the love, experience the authentic flavors of India."
             </p>
             <p className="text-muted-foreground mt-4">
-              - The Hudakar Family
+              - The Umredkar Family
             </p>
           </div>
         </div>

@@ -4,8 +4,8 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import saojiMasala from "@/assets/saoji-masala.jpg";
 import pahadiMasala from "@/assets/pahadi-masala.jpg";
-import jawasChutney from "@/assets/jawas-chutney.jpg";
-import shengdanaChutney from "@/assets/shengdana-chutney.jpg";
+import jawasChutney from "@/assets/image.png";
+import shengdanaChutney from "@/assets/image.png";
 
 const Products = () => {
   const products = [
@@ -18,7 +18,7 @@ const Products = () => {
       // originalPrice: "₹220",
       // weight: "200g",
       rating: 4.8,
-      reviews: 156,
+      // reviews: 156,
       badge: "Best Seller",
       ingredients: ["Red Chili", "Coriander", "Cumin", "Turmeric", "Garam Masala"]
     },
@@ -31,7 +31,7 @@ const Products = () => {
       // originalPrice: "₹200",
       // weight: "200g",
       rating: 4.7,
-      reviews: 98,
+      // reviews: 98,
       badge: "Premium",
       ingredients: ["Bay Leaves", "Black Cardamom", "Cinnamon", "Cloves", "Nutmeg"]
     },
@@ -44,7 +44,7 @@ const Products = () => {
       originalPrice: "₹150",
       weight: "250g",
       rating: 4.9,
-      reviews: 203,
+      // reviews: 203,
       badge: "Fresh",
       ingredients: ["Fresh Mint", "Coriander", "Green Chili", "Ginger", "Lemon"]
     },
@@ -57,7 +57,7 @@ const Products = () => {
       originalPrice: "₹170",
       weight: "300g",
       rating: 4.6,
-      reviews: 87,
+      // reviews: 87,
       badge: "Traditional",
       ingredients: ["Roasted Peanuts", "Jaggery", "Tamarind", "Red Chili", "Salt"]
     }
@@ -67,8 +67,8 @@ const Products = () => {
     switch (badge) {
       case "Best Seller": return "default";
       case "Premium": return "secondary";
-      case "Fresh": return "outline";
-      case "Traditional": return "outline";
+      case "Fresh": return "default";
+      case "Traditional": return "secondary";
       default: return "default";
     }
   };
@@ -115,7 +115,7 @@ const Products = () => {
                     <div className="flex items-center gap-1">
                       <Star className="h-4 w-4 fill-secondary text-secondary" />
                       <span className="text-sm font-medium">{product.rating}</span>
-                      <span className="text-sm text-muted-foreground">({product.reviews})</span>
+                      {/* <span className="text-sm text-muted-foreground">({product.reviews})</span> */}
                     </div>
                   </div>
                   
