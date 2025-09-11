@@ -4,17 +4,17 @@ import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   const values = [
     {
-      icon: <Leaf className="h-8 w-8 text-accent" />,
+      icon: <Leaf className="h-8 w-8 text-green-500" />,
       title: "Natural & Pure",
       description: "We use only the purest spices, made from real natural ingredients and free from chemicals or preservatives."
     },
     {
-      icon: <Heart className="h-8 w-8 text-secondary" />,
+      icon: <Heart className="h-8 w-8 text-red-500" />,
       title: "Made with Love",
       description: "Every product is crafted with care, inspired by Asha Umredkar's home-cooked flavors and perfected over generations."
     },
     {
-      icon: <Award className="h-8 w-8 text-primary-glow" />,
+      icon: <Award className="h-8 w-8 text-yellow-500" />,
       title: "Quality Assured",
       description: "Rigorous checks ensure each batch meets the highest standards. Trusted by over 50 lakh+ homes by 2026."
     },
@@ -52,8 +52,8 @@ const About = () => {
               the business grew, keeping authenticity and family at its core.
             </p>
 
-            <div className="bg-gradient-warm p-8 rounded-lg text-white mb-12 shadow-warm">
-              <h2 className="font-serif text-3xl font-bold mb-4">Our Mission</h2>
+            <div className="p-8 rounded-lg text-white mb-12 shadow-warm bg-[#651a15]">
+            <h2 className="font-serif text-3xl font-bold text-white mb-4">Our Mission</h2>
               <ul className="list-disc ml-8 opacity-90 text-lg leading-relaxed">
                 <li>
                   Deliver <strong>100% natural</strong> masalas and gravies with no chemicals or preservatives.
@@ -62,27 +62,27 @@ const About = () => {
                   Make cooking effortless – just add our masala, water, and favorite ingredients for a flavorful meal.
                 </li>
                 <li>
-                  Carry forward the <strong className="text-primary">rich flavors of Nagpur and Maharashtra</strong> to households nationwide.
+                  Carry forward the <strong className="text-primary text-white">rich flavors of Nagpur and Maharashtra</strong> to households nationwide.
                 </li>
                 <li>
                   Reach <span className="font-bold">50 lakh+ homes by 2026</span>, sharing health, purity, and taste with trust.
                 </li>
               </ul>
               <p className="mt-4">
-                Our mission is to share emotions, traditions, and memories—served with every spoonful.
+                Our mission is to share emotions, traditions, and memories served with every spoonful.
               </p>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               From mess → catering → canteen → hotel → spices, Umredkar Masale kept evolving.
               During the pandemic, with the support of <strong>Mrs. Sonali Umredkar</strong> and encouragement from
-              <strong>Mr. Narendra Deshmukh</strong>, innovative preservative-free gravies and masalas were crafted, using only pure, natural
+              <strong> Mr. Narendra Deshmukh</strong>, innovative preservative-free gravies and masalas were crafted, using only pure, natural
               ingredients and traditional methods.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              Now, with renowned products like <strong >Saoji Masala</strong>, <strong className="text-accent">Pahadi Gravy</strong>,
-              <strong>Kala Masala</strong>, <strong>Turmeric</strong>, and specialty chutneys, Umredkar Masale promises convenience,
+              Now, with renowned products like <strong >Saoji Masala</strong>, <strong >Pahadi Gravy</strong>,
+              <strong> Kala Masala</strong>, <strong>Turmeric</strong>, and specialty chutneys, Umredkar Masale promises convenience,
               authenticity, and care in every home-cooked dish.
             </p>
           </div>
@@ -127,7 +127,7 @@ const About = () => {
             Our Commitment to You
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-            Every product that carries the Umredkar Masale name is a promise—of authenticity,
+            Every product that carries the Umredkar Masale name is a promise of authenticity,
             quality, and the genuine taste that has been perfected over generations. When you choose our spices,
             you're bringing home a piece of our family's legacy and the comfort of home-cooked flavor.
           </p>

@@ -43,7 +43,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: ["info@hudakarmasale.com", "orders@hudakarmasale.com"],
+      details: ["Umredkarmasale@gmail.com"],
       description: "We'll respond within 24 hours"
     },
     {
@@ -70,7 +70,7 @@ const Contact = () => {
     {
       icon: <MessageCircle className="h-5 w-5" />,
       name: "WhatsApp",
-      url: "https://wa.me/919673333866",
+      url: "https://wa.me/9673333866",
       color: "hover:text-green-600"
     }
     

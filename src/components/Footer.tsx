@@ -15,8 +15,11 @@ const Footer = () => {
   const products = [
     "Saoji Gravy",
     "Pahadi Gravy", 
-    "Jawas Chutney",
-    "Shengdana Chutney"
+    "Javas Chutney",
+    "Shengdana Chutney",
+    "Ghatala Chutney",
+    "Kala Masala",
+    "Haldi",   
   ];
 
   const socialLinks = [
@@ -110,7 +113,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8">
+        {/* <div className="border-t border-primary-foreground/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/60 text-sm mb-4 md:mb-0">
               © {currentYear} Umredakar Masale. All rights reserved.
@@ -127,7 +130,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

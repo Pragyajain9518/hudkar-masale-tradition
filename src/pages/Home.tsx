@@ -1,4 +1,4 @@
-import { Star, ShoppingCart, Award, Heart } from "lucide-react";
+import { Star, ShoppingCart, Award, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -7,14 +7,14 @@ import logo from "../assets/logo.jpg"
 const Home = () => {
   const features = [
     {
-      icon: <Award className="h-8 w-8 text-secondary" />,
+      icon: <Award className="h-8 w-8 text-yellow-500" />,
       title: "Authentic Traditional Recipes",
       description: "Time-tested recipes passed down through generations"
     },
     {
-      icon: <Heart className="h-8 w-8 text-accent" />,
-      title: "Made with Love",
-      description: "Each blend is crafted with care and attention to detail"
+      icon: <Leaf className="h-8 w-8 text-green-500" />,
+      title: "Natural & Pure",
+      description: "We use only the purest spices, made from real natural ingredients and free from chemicals or preservatives"
     },
     {
       icon: <Star className="h-8 w-8 text-primary-glow" />,
@@ -54,7 +54,7 @@ const Home = () => {
       alt="Umredakar Masale Logo"
       className="w-24 h-24 rounded-[55%] object-cover mb-7"
     />
-    <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6 animate-spice-float text-primary">
+    <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6  text-primary">
       Umredakar Masale
     </h1>
     <p className="text-xl md:text-2xl mb-8 font-light">
@@ -127,7 +127,7 @@ const Home = () => {
                 <CardContent className="p-6">
                   <div className="flex mb-4">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-secondary text-secondary" />
+                      <Star key={i} className="h-4 w-4 fill-yellow-500 text-yellow-500" />
                     ))}
                   </div>
                   <p className="text-muted-foreground mb-4 italic">
