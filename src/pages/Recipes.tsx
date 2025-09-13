@@ -2,122 +2,56 @@ import { Clock, Users, ChefHat, Star } from "lucide-react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import saojiGravyImage from "@/assets/saojigravymasala.jpg";
+import pahadiMasalaImage from "@/assets/pahadimasala.jpg";
 
 const Recipes = () => {
   const recipes = [
     {
       id: 1,
-      title: "Authentic Saoji Chicken Curry",
-      description: "A fiery and flavorful chicken curry from Nagpur using our signature Saoji Gravy Masala",
-      cookTime: "45 min",
-      servings: 4,
-      difficulty: "Medium",
-      product: "Saoji Gravy Masala",
-      ingredients: [
-        "500g chicken pieces",
-        "2 tbsp Hudakar Saoji Gravy Masala",
-        "1 large onion, sliced",
-        "3-4 tomatoes, chopped",
-        "1 tbsp ginger-garlic paste",
-        "2 tbsp oil",
-        "Salt to taste",
-        "Fresh coriander for garnish"
-      ],
-      instructions: [
-        "Heat oil in a heavy-bottomed pan and sauté onions until golden brown",
-        "Add ginger-garlic paste and cook for 2 minutes",
-        "Add tomatoes and cook until they break down completely",
-        "Add Hudakar Saoji Gravy Masala and cook for 3-4 minutes",
-        "Add chicken pieces and cook on medium heat for 15 minutes",
-        "Add water as needed and simmer until chicken is tender",
-        "Garnish with fresh coriander and serve hot with rice or roti"
-      ],
-      tips: "For authentic flavor, let the masala cook well before adding chicken. The secret is in slow cooking!"
-    },
-    {
-      id: 2,
-      title: "Pahadi Style Mixed Vegetable Curry",
-      description: "A hearty mountain-style vegetable curry using our aromatic Pahadi Gravy Masala",
+      title: "Saoji Gravy",
+      image: saojiGravyImage,
+      description: "A quick and flavorful gravy using our authentic Umredkar Saoji Gravy Masala - perfect for any vegetables or meat",
       cookTime: "30 min",
       servings: 4,
       difficulty: "Easy",
-      product: "Pahadi Gravy Masala",
+      product: "Umredkar Saoji Gravy Masala",
       ingredients: [
-        "2 cups mixed vegetables (potato, cauliflower, beans)",
-        "2 tbsp Hudakar Pahadi Gravy Masala",
-        "1 onion, chopped",
-        "2 tomatoes, chopped",
-        "1 tsp cumin seeds",
-        "2 tbsp ghee",
-        "1 cup water",
-        "Salt to taste"
+        "1 glass water",
+        "Umredkar Saoji Gravy Masala",
+        "Your choice of vegetables or non-veg (chicken/mutton)"
       ],
       instructions: [
-        "Heat ghee in a pan and add cumin seeds",
-        "Add chopped onions and sauté until translucent",
-        "Add tomatoes and cook until soft",
-        "Add Hudakar Pahadi Gravy Masala and mix well",
-        "Add mixed vegetables and stir to coat with masala",
-        "Add water, cover and cook until vegetables are tender",
-        "Serve hot with steamed rice or chapati"
+        "Take 1 glass of water in a pan and add Umredkar Saoji Gravy Masala",
+        "Stir it well until the oil separates from the masala",
+        "Once ready, add your choice of vegetables or non-veg like chicken or mutton",
+        "Let it cook for 25–30 minutes until the flavors blend beautifully",
+        "The dish is ready to serve"
       ],
-      tips: "Cut vegetables uniformly for even cooking. This curry tastes even better the next day!"
+      tips: "No need to add extra salt or chili powder, as the masala already has the perfect blend of spices!"
     },
     {
-      id: 3,
-      title: "Perfect Jawas Chutney Sandwich",
-      description: "A quick and delicious sandwich spread using our fresh Jawas Chutney",
-      cookTime: "10 min",
-      servings: 2,
+      id: 2,
+      title: "Pahadi Gravy",
+      image: pahadiMasalaImage,
+      description: "Authentic mountain-style gravy with our special Umredkar Pahadi Gravy Masala for rich, traditional flavors",
+      cookTime: "30 min",
+      servings: 4,
       difficulty: "Easy",
-      product: "Jawas Chutney",
+      product: "Umredkar Pahadi Gravy Masala",
       ingredients: [
-        "4 bread slices",
-        "3 tbsp Hudakar Jawas Chutney",
-        "1 cucumber, thinly sliced",
-        "1 tomato, sliced",
-        "1 onion, thinly sliced",
-        "2 tbsp butter",
-        "Chat masala to sprinkle"
+        "1 glass water",
+        "Umredkar Pahadi Gravy Masala",
+        "Your favorite vegetables or non-veg options"
       ],
       instructions: [
-        "Lightly toast the bread slices",
-        "Spread butter on one side of each slice",
-        "Spread Hudakar Jawas Chutney generously",
-        "Layer with cucumber, tomato, and onion slices",
-        "Sprinkle chat masala for extra flavor",
-        "Cut diagonally and serve immediately"
+        "Pour 1 glass of water into a cooking vessel and mix in Umredkar Pahadi Gravy Masala",
+        "Stir thoroughly until the oil separates, ensuring the masala is well-cooked",
+        "Add your favorite vegetables or non-veg options to the gravy",
+        "Cook it on medium flame for 25–30 minutes",
+        "Enjoy the rich, flavorful Pahadi-style dish"
       ],
-      tips: "For extra crunch, add lettuce leaves. This chutney also works great as a dip!"
-    },
-    {
-      id: 4,
-      title: "Traditional Shengdana Chutney Bhel",
-      description: "Mumbai-style bhel puri elevated with our creamy Shengdana Chutney",
-      cookTime: "15 min",
-      servings: 3,
-      difficulty: "Easy",
-      product: "Shengdana Chutney",
-      ingredients: [
-        "2 cups puffed rice (murmura)",
-        "3 tbsp Hudakar Shengdana Chutney",
-        "1 onion, finely chopped",
-        "1 tomato, finely chopped",
-        "1/2 cup sev",
-        "Green chutney (optional)",
-        "Tamarind chutney",
-        "Fresh coriander, chopped"
-      ],
-      instructions: [
-        "In a large mixing bowl, add puffed rice",
-        "Add chopped onions and tomatoes",
-        "Add Hudakar Shengdana Chutney and mix well",
-        "Add other chutneys as per taste",
-        "Mix everything thoroughly",
-        "Top with sev and fresh coriander",
-        "Serve immediately for the best crunch"
-      ],
-      tips: "Assemble just before serving to maintain the crunch. Adjust chutney quantity based on your taste preference!"
+      tips: "There is no need to add additional salt or chili powder, as the masala provides the authentic taste!"
     }
   ];
 
@@ -161,10 +95,19 @@ const Recipes = () => {
 
       {/* Recipe Cards */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {recipes.map((recipe) => (
-              <Card key={recipe.id} className="shadow-warm hover:shadow-spice transition-all duration-300">
+              <Card key={recipe.id} className="shadow-warm hover:shadow-spice transition-all duration-300 overflow-hidden">
+                {/* Recipe Image */}
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={recipe.image} 
+                    alt={recipe.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+
                 <CardHeader>
                   <div className="flex justify-between items-start mb-4">
                     <h3 className="font-serif text-2xl font-bold text-primary">
@@ -251,18 +194,36 @@ const Recipes = () => {
             </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {tips.map((tip, index) => (
-              <Card key={index} className="text-center shadow-warm">
-                <CardContent className="p-6">
-                  <h3 className="font-serif text-lg font-semibold mb-3 text-primary">
-                    {tip.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {tip.content}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
+            <Card className="text-center shadow-warm">
+              <CardContent className="p-6">
+                <h3 className="font-serif text-lg font-semibold mb-3 text-primary">
+                  Spice Storage Tips
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Store Umredakar Masale products in airtight containers away from direct sunlight to maintain freshness and potency.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="text-center shadow-warm">
+              <CardContent className="p-6">
+                <h3 className="font-serif text-lg font-semibold mb-3 text-primary">
+                  Enhance Flavors
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Always cook masalas on medium heat for 2-3 minutes to release their aromatic oils before adding other ingredients.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="text-center shadow-warm">
+              <CardContent className="p-6">
+                <h3 className="font-serif text-lg font-semibold mb-3 text-primary">
+                  Perfect Consistency
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  For gravies, add warm water gradually to achieve the desired consistency without compromising the flavor.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

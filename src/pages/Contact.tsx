@@ -49,7 +49,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Address",
-      details: ["Umredakar Masale", "123 Spice Street, Nagpur", "Maharashtra 440001, India"],
+      details: ["Umredkar Masale T-point hingna road, near metro pillar no. 132, Nagpur -440 025(Maharashtra), India"],
       description: "Visit our production facility"
     }
   ];
@@ -58,19 +58,19 @@ const Contact = () => {
     {
       icon: <Facebook className="h-5 w-5" />,
       name: "Facebook",
-      url: "#",
+      url: "https://www.facebook.com/share/1FSamCbFiB/?mibextid=wwXIfr",
       color: "hover:text-blue-600"
     },
     {
       icon: <Instagram className="h-5 w-5" />,
       name: "Instagram", 
-      url: "https://www.instagram.com/umredkar_saoji?igsh=cDN5cmdkeTY4and1",
+      url: "https://www.instagram.com/umredkarmasalespices?igsh=MTdtdXBiYWp6Y2NkZQ==",
       color: "hover:text-pink-600"
     },
     {
       icon: <MessageCircle className="h-5 w-5" />,
       name: "WhatsApp",
-      url: "https://wa.me/9673333866",
+      url: "https://wa.me/9923333866",
       color: "hover:text-green-600"
     }
     

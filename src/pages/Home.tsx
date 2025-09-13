@@ -55,7 +55,7 @@ const Home = () => {
       className="w-24 h-24 rounded-[55%] object-cover mb-7"
     />
     <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6  text-primary">
-      Umredakar Masale
+      Umredkar Masale
     </h1>
     <p className="text-xl md:text-2xl mb-8 font-light">
       Authentic Taste of Tradition

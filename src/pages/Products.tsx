@@ -31,7 +31,7 @@ const Products = () => {
       id: 2,
       name: "Pahadi Gravy Masala",
       description:
-        "Mountain-fresh spice blend inspired by hill station flavors. Perfect for creating aromatic curries with a unique taste.",
+        "Mountain-fresh spice blend inspired by banjara tradition. Perfect for creating aromatic curries with a unique taste.",
       image: pahadiMasala,
       rating: 4.7,
       badge: "Premium",
@@ -98,7 +98,7 @@ const Products = () => {
 
     {
       id: 6,
-      name: "Haldi",
+      name: "Haldi(turmeric powder)",
       description:
         "Pure, vibrant turmeric powder for health, color and flavor. Sourced from the finest roots and ground traditionally.",
       image: haldi,
@@ -170,7 +170,7 @@ const Products = () => {
                 {saoji?.name}
               </h2>
               <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
-                <Star className="h-4 w-4 fill-secondary text-secondary" />
+                <Star className="h-4 w-4 fill-secondary text-yellow-500" />
                 <span className="text-sm font-medium">{saoji?.rating}</span>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
@@ -223,7 +223,7 @@ const Products = () => {
                         {product.name}
                       </h3>
                       <div className="flex items-center gap-1">
-                        <Star className="h-4 w-4 fill-secondary text-secondary" />
+                        <Star className="h-4 w-4 fill-secondary   text-yellow-500" />
                         <span className="text-sm font-medium">{product.rating}</span>
                       </div>
                     </div>

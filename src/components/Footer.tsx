@@ -19,7 +19,7 @@ const Footer = () => {
     "Shengdana Chutney",
     "Ghatala Chutney",
     "Kala Masala",
-    "Haldi",   
+    "Haldi(turmeric powder)",   
   ];
 
   const socialLinks = [
@@ -35,7 +35,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <h3 className="font-serif text-2xl font-bold mb-4">
-              Umredakar Masale
+              Umredkar Masale
             </h3>
             <p className="text-primary-foreground/80 mb-4 leading-relaxed">
               Authentic Taste of Tradition. Bringing you the finest Indian spice blends and chutneys crafted with love and traditional recipes.
@@ -95,7 +95,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
                 <div className="text-primary-foreground/80 text-sm">
-                  <p>42FM+2RF, Ambazari - Hingna Rd, Rajendra Nagar, Yahodha Nagar,</p>
+                  <p>Umredkar Masale T-point hingna road, near metro pillar no. 132,</p>
                   <p>Nagpur, Maharashtra 440036</p>
                   <p>India</p>
                 </div>

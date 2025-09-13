@@ -31,7 +31,7 @@ const Navigation = () => {
                     // className="w-full h-64 object-cover"
                   />
             <div className="text-2xl font-serif font-bold text-primary">
-              Umredakar Masale
+              Umredkar Masale
             </div>
             {/* <div className="hidden sm:block text-sm text-muted-foreground">
               Authentic Taste of Tradition
