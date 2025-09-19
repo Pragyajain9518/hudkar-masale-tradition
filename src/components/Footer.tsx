@@ -19,7 +19,7 @@ const Footer = () => {
     "Shengdana Chutney",
     "Ghatala Chutney",
     "Kala Masala",
-    "Haldi(turmeric powder)",   
+    "Haldi(Turmeric powder)",   
   ];
 
   const socialLinks = [
@@ -107,7 +107,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="h-5 w-5 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80 text-sm">Umredkarmasale@gmail.com</span>
+                <span className="text-primary-foreground/80 text-sm">umredkarmasale@gmail.com</span>
               </div>
             </div>
           </div>

@@ -98,7 +98,7 @@ const Products = () => {
 
     {
       id: 6,
-      name: "Haldi (turmeric powder)",
+      name: "Haldi (Turmeric powder)",
       description:
         "Pure, vibrant turmeric powder for health, color and flavor. Sourced from the finest roots and ground traditionally.",
       image: haldi,
@@ -126,11 +126,11 @@ const Products = () => {
       case "Best Seller":
         return "default";
       case "Premium":
-        return "secondary";
+        return "default";
       case "Fresh":
         return "default";
       case "Traditional":
-        return "secondary";
+        return "default";
       default:
         return "default";
     }
