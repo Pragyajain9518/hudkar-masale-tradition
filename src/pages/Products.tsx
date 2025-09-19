@@ -45,9 +45,9 @@ const Products = () => {
     },
     {
       id: 3,
-      name: "Jawas Chutney",
+      name: "Javas Chutney",
       description:
-        "Nutty, spicy chutney made from roasted flaxseeds (jawas), a local favorite for adding zing to meals.",
+        "Nutty, spicy chutney made from roasted flaxseeds (javas), a local favorite for adding zing to meals.",
       image: jawasChutney,
       price: "₹120",
       originalPrice: "₹150",
@@ -98,7 +98,7 @@ const Products = () => {
 
     {
       id: 6,
-      name: "Haldi(turmeric powder)",
+      name: "Haldi (turmeric powder)",
       description:
         "Pure, vibrant turmeric powder for health, color and flavor. Sourced from the finest roots and ground traditionally.",
       image: haldi,

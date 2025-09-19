@@ -37,7 +37,7 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: ["+91 98765 43210", "+91 87654 32109"],
+      details: ["+91 9923333866", "+91 9693333866"],
       description: "Call us during business hours"
     },
     {

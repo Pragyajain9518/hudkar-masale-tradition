@@ -52,7 +52,21 @@ const About = () => {
               the business grew, keeping authenticity and family at its core.
             </p>
 
-            <div className="p-8 rounded-lg text-white mb-12 shadow-warm bg-[#651a15]">
+
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+              From mess → catering → canteen → hotel → spices, Umredkar Masale kept evolving.
+              During the pandemic, with the support of <strong>Mrs. Sonali Umredkar</strong> and encouragement from
+              <strong> Mr. Narendra Deshmukh</strong>, innovative preservative-free gravies and masalas were crafted, using only pure, natural
+              ingredients and traditional methods.
+            </p>
+
+            <p className="text-lg text-muted-foreground leading-relaxed mb-12">
+              Now, with renowned products like <strong >Saoji Masala</strong>, <strong >Pahadi Gravy</strong>,
+              <strong> Kala Masala</strong>, <strong>Turmeric</strong>, and specialty chutneys, Umredkar Masale promises convenience,
+              authenticity, and care in every home-cooked dish.
+            </p>
+            
+            <div className="p-8 rounded-lg text-white mb-2 shadow-warm bg-[#651a15]">
             <h2 className="font-serif text-3xl font-bold text-white mb-4">Our Mission</h2>
               <ul className="list-disc ml-8 opacity-90 text-lg leading-relaxed">
                 <li>
@@ -72,25 +86,12 @@ const About = () => {
                 Our mission is to share emotions, traditions, and memories served with every spoonful.
               </p>
             </div>
-
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              From mess → catering → canteen → hotel → spices, Umredkar Masale kept evolving.
-              During the pandemic, with the support of <strong>Mrs. Sonali Umredkar</strong> and encouragement from
-              <strong> Mr. Narendra Deshmukh</strong>, innovative preservative-free gravies and masalas were crafted, using only pure, natural
-              ingredients and traditional methods.
-            </p>
-
-            <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              Now, with renowned products like <strong >Saoji Masala</strong>, <strong >Pahadi Gravy</strong>,
-              <strong> Kala Masala</strong>, <strong>Turmeric</strong>, and specialty chutneys, Umredkar Masale promises convenience,
-              authenticity, and care in every home-cooked dish.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Values Section */}
-      <section className="py-20 bg-gradient-spice">
+      <section className="py-10 bg-gradient-spice">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-serif text-4xl font-bold text-primary mb-4">
