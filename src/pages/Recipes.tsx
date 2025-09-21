@@ -58,7 +58,7 @@ const Recipes = () => {
   const tips = [
     {
       title: "Spice Storage Tips",
-      content: "Store Umredakar Masale products in airtight containers away from direct sunlight to maintain freshness and potency."
+      content: "Store Umredkar Masale products in airtight containers away from direct sunlight to maintain freshness and potency."
     },
     {
       title: "Enhance Flavors",
@@ -88,7 +88,7 @@ const Recipes = () => {
             Recipes & Tips
           </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Discover delicious ways to use Umredakar Masale products in your everyday cooking
+              Discover delicious ways to use Umredkar Masale products in your everyday cooking
             </p>
         </div>
       </section>
@@ -200,7 +200,7 @@ const Recipes = () => {
                   Spice Storage Tips
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Store Umredakar Masale products in airtight containers away from direct sunlight to maintain freshness and potency.
+                  Store Umredkar Masale products in airtight containers away from direct sunlight to maintain freshness and potency.
                 </p>
               </CardContent>
             </Card>

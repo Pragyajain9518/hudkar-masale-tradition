@@ -207,7 +207,7 @@ const Products = () => {
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-64 object-cover"
+                      className="w-full h-64 object-contain bg-white"
                     />
                     <Badge
                       className="absolute top-4 left-4"
