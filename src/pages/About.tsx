@@ -62,7 +62,7 @@ const About = () => {
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-12">
               Now, with renowned products like <strong >Saoji Masala</strong>, <strong >Pahadi Gravy</strong>,
-              <strong> Kala Masala</strong>, <strong>Turmeric</strong>, and specialty chutneys, Umredkar Masale promises convenience,
+              <strong> Kala Masala</strong>, <strong>Turmeric Powder</strong>, and specialty chutneys, Umredkar Masale promises convenience,
               authenticity, and care in every home-cooked dish.
             </p>
             
