@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Facebook, Instagram, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Youtube, Instagram, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,9 +23,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: <Facebook className="h-5 w-5" />, url: "#", name: "Facebook" },
-    { icon: <Instagram className="h-5 w-5" />, url: "#", name: "Instagram" },
-    { icon: <MessageCircle className="h-5 w-5" />, url: "#", name: "WhatsApp" },
+    { icon: <Youtube className="h-8 w-8" />, url: "#", name: "Youtube" },
+    { icon: <Instagram className="h-7 w-7" />, url: "#", name: "Instagram" },
+    { icon: <MessageCircle className="h-7 w-7" />, url: "#", name: "WhatsApp" },
   ];
 
   return (
@@ -103,7 +103,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="h-5 w-5 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80 text-sm">+91 9673333866</span>
+                <span className="text-primary-foreground/80 text-sm">+91 9923333866</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="h-5 w-5 text-secondary flex-shrink-0" />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin, Phone, Mail, Send, Facebook, Instagram, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Send, Youtube, Instagram, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -37,13 +37,13 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: ["+91 9923333866", "+91 9693333866"],
+      details: ["+91 9923333866", "+91 9673333866"],
       description: "Call us during business hours"
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: ["Umredkarmasale@gmail.com"],
+      details: ["umredkarmasale@gmail.com"],
       description: "We'll respond within 24 hours"
     },
     {
@@ -56,10 +56,10 @@ const Contact = () => {
 
   const socialLinks = [
     {
-      icon: <Facebook className="h-5 w-5" />,
-      name: "Facebook",
-      url: "https://www.facebook.com/share/1FSamCbFiB/?mibextid=wwXIfr",
-      color: "hover:text-blue-600"
+      icon: <Youtube className="h-5 w-5" />,
+      name: "Youtube",
+      url: "https://www.youtube.com/@UmredkarMasale",
+      color: "hover:text-red-500"
     },
     {
       icon: <Instagram className="h-5 w-5" />,
@@ -162,7 +162,7 @@ const Contact = () => {
                     Interested in bulk orders for your restaurant or store? 
                     Contact us for special wholesale pricing.
                   </p>
-                  <a href="mailto:Umredkarmasale@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/9923333866" target="_blank" rel="noopener noreferrer">
   <Button variant="outline" className="border-white/30 text-primary hover:bg-white/10">
     <Mail className="mr-2 h-4 w-4" />
     Get Wholesale Info
