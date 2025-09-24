@@ -1,4 +1,4 @@
-import { Star, ShoppingCart, Award, Leaf } from "lucide-react";
+import { Star, ShoppingCart, Award, Leaf, LeafyGreen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -49,6 +49,14 @@ const Home = () => {
   >
     {/* Dark overlay for readability */}
     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-black/30"></div>
+  </div>
+
+  {/* Pure Veg Sign - Top Left */}
+  <div className="absolute top-6 right-6 z-20">
+    <div className="bg-green-600 text-white px-4 py-2 rounded-full shadow-lg flex items-center space-x-2">
+      <LeafyGreen className="h-5 w-5" />
+      <span className="font-semibold text-sm">100% PURE VEG</span>
+    </div>
   </div>
 
   <div className="relative z-10 flex flex-col items-center text-center text-white px-4">
