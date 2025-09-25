@@ -1,5 +1,6 @@
 import { Users, Leaf, Heart, Award } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import clientPhoto from "@/assets/clientphoto.jpg";
 
 const About = () => {
   const values = [
@@ -39,56 +40,74 @@ const About = () => {
         </div>
       </section>
 
+
       {/* Main Story */}
-      <section className="py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg mx-auto">
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              <strong className="text-primary font-serif text-xl">Umredkar Masale</strong> began from the
-              passion, tradition, and perseverance of Smt. <strong>Asha Umredkar</strong>, who lovingly prepared snacks
-              and chips at home, inspiring <strong>Mr. Prashant Umredkar</strong>'s deep love for food. In 1996, Prashant started a
-              small mess service with his mother as chef, aiming to serve tastes just like home. With loyal support from friends
-              like <strong>Mr. Indranil Naik</strong> and the drive to expand into catering, hotels, and finally spices,
-              the business grew, keeping authenticity and family at its core.
-            </p>
+      <section className="py-10">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div className="grid md:grid-cols-2 gap-0 md:gap-5 items-center">
+    <div className="order-2 md:order-1 h-[257px] mb-5">
+  <img
+    src={clientPhoto}
+    alt="Prashant and Sonali Umredkar - Founders of Umredkar Masale"
+    className="w-full h-full object-cover rounded-lg shadow-warm"
+  />
+</div>
 
-
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              From mess → catering → canteen → hotel → spices, Umredkar Masale kept evolving.
-              During the pandemic, with the support of <strong>Mrs. Sonali Umredkar</strong> and encouragement from
-              <strong> Mr. Narendra Deshmukh</strong>, innovative preservative-free gravies and masalas were crafted, using only pure, natural
-              ingredients and traditional methods.
-            </p>
-
-            <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              Now, with renowned products like <strong >Saoji Masala</strong>, <strong >Pahadi Gravy</strong>,
-              <strong> Kala Masala</strong>, <strong>Turmeric Powder</strong>, and specialty chutneys, Umredkar Masale promises convenience,
-              authenticity, and care in every home-cooked dish.
-            </p>
-            
-            <div className="p-8 rounded-lg text-white mb-2 shadow-warm bg-[#651a15]">
-            <h2 className="font-serif text-3xl font-bold text-white mb-4">Our Mission</h2>
-              <ul className="list-disc ml-8 opacity-90 text-lg leading-relaxed">
-                <li>
-                  Deliver <strong>100% natural</strong> masalas and gravies with no chemicals or preservatives.
-                </li>
-                <li>
-                  Make cooking effortless – just add our masala, water, and favorite ingredients for a flavorful meal.
-                </li>
-                <li>
-                  Carry forward the <strong className="text-primary text-white">rich flavors of Nagpur and Maharashtra</strong> to households nationwide.
-                </li>
-                <li>
-                  Reach <span className="font-bold">50 lakh+ homes by 2026</span>, sharing health, purity, and taste with trust.
-                </li>
-              </ul>
-              <p className="mt-4">
-                Our mission is to share emotions, traditions, and memories served with every spoonful.
-              </p>
-            </div>
-          </div>
+        <div className="order-1 md:order-2">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-5 text-justify">
+            <strong>Mr. Prashant Umredkar</strong> and <strong>Mrs. Sonali Umredkar</strong> are the driving force behind Umredkar Masale. 
+            <br/>   
+            <strong className="text-primary font-serif text-xl">Umredkar Masale</strong> began from the passion, tradition, and perseverance of Smt. <strong>Asha Umredkar</strong>, who lovingly prepared snacks
+            and chips at home, inspiring <strong>Mr. Prashant Umredkar</strong>'s deep love for food.
+          </p>
         </div>
-      </section>
+      </div>
+
+    <div className="prose prose-lg mx-auto">
+      <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-justify">
+        In 1996, Prashant started a small mess service with his mother as chef, aiming to serve tastes just like home. With loyal support from friends
+        like <strong>Mr. Indranil Naik</strong> and the drive to expand into catering, hotels, and finally spices,
+        the business grew, keeping authenticity and family at its core.
+      </p>
+
+      <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-justify">
+        From mess → catering → canteen → hotel → spices, Umredkar Masale kept evolving.
+        During the pandemic, with the support of <strong>Mrs. Sonali Umredkar</strong> and encouragement from
+        <strong> Mr. Narendra Deshmukh</strong>, innovative preservative-free gravies and masalas were crafted, using only pure, natural
+        ingredients and traditional methods.
+      </p>
+
+      <p className="text-lg text-muted-foreground leading-relaxed mb-12 text-justify">
+        Now, with renowned products like <strong>Saoji Masala</strong>, <strong>Pahadi Gravy</strong>,
+        <strong> Kala Masala</strong>, <strong>Turmeric Powder</strong>, and specialty chutneys, Umredkar Masale promises convenience,
+        authenticity, and care in every home-cooked dish.
+      </p>
+
+      <div className="p-8 rounded-lg text-white mb-2 shadow-warm bg-[#651a15]">
+        <h2 className="font-serif text-3xl font-bold text-white mb-4">Our Mission</h2>
+        <ul className="list-disc ml-8 opacity-90 text-lg leading-relaxed text-justify">
+          <li>
+            Deliver <strong>100% natural</strong> masalas and gravies with no chemicals or preservatives.
+          </li>
+          <li>
+            Make cooking effortless – just add our masala, water, and favorite ingredients for a flavorful meal.
+          </li>
+          <li>
+            Carry forward the <strong className="text-primary text-white">rich flavors of Nagpur and Maharashtra</strong> to households nationwide.
+          </li>
+          <li>
+            Reach <span className="font-bold">50 lakh+ homes by 2026</span>, sharing health, purity, and taste with trust.
+          </li>
+        </ul>
+        <p className="mt-4 text-justify">
+          Our mission is to share emotions, traditions, and memories served with every spoonful.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Values Section */}
       <section className="py-10 bg-gradient-spice">
